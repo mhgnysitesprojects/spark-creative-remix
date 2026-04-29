@@ -24,15 +24,15 @@ export const Hero = () => {
 
       <div className="container-tight relative z-10 max-w-4xl mx-auto text-center pt-32 pb-20">
         <div>
-          <p className="eyebrow mb-6">Welcome to Amy Oraefo, P.C.</p>
-          <h1 className="text-primary-foreground text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-8">
-            Only <span className="italic text-accent">Applied Knowledge</span> Is{" "}
-            <span className="italic text-accent">Power</span>
+          <p className="inline-block px-5 py-2 mb-8 rounded-full border border-accent/40 text-accent text-sm">
+            Legal & Business Strategy for <span className="text-accent font-semibold">Tech & Media Companies</span>
+          </p>
+          <p className="text-foreground-foreground/70 text-xl mb-4">Legally people think knowledge is power…</p>
+          <h1 className="text-foreground-foreground text-6xl md:text-7xl lg:text-8xl font-extrabold uppercase leading-[0.95] tracking-tight mb-10">
+            Only Applied <span className="text-accent block md:inline">Knowledge</span> Is Power
           </h1>
-          <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-            Legal & business strategy for creatives, tech & media companies, athletes,
-            startups, and content creators. Protecting your business, creativity, and
-            intellectual property to build a lasting legacy.
+          <p className="text-foreground-foreground/75 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+            Protecting your business, creativity, and intellectual property to build a lasting legacy.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button variant="hero" size="xl" asChild>
@@ -49,7 +49,7 @@ export const Hero = () => {
               <a href="#services">Explore Our Services</a>
             </Button>
           </div>
-          <div className="mt-12 flex items-center gap-8 text-primary-foreground/60 text-sm justify-center">
+          <div className="mt-12 flex items-center gap-8 text-foreground-foreground/60 text-sm justify-center">
             <div>
               <div className="text-3xl text-accent font-serif">10+</div>
               <div className="uppercase tracking-widest text-xs">Years of Experience</div>

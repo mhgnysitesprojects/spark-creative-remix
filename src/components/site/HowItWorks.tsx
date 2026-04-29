@@ -13,7 +13,7 @@ export const HowItWorks = () => {
       <div className="container-tight">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="eyebrow mb-4">How AOPC Works</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground">
             Your Legacy Deserves <span className="italic text-accent">Structure</span>,{" "}
             <span className="italic text-accent">Strategy</span>, and{" "}
             <span className="italic text-accent">Support</span>
@@ -36,7 +36,7 @@ export const HowItWorks = () => {
                   {String(i + 1).padStart(2, "0")}
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl text-primary mb-2">{s.title}</h3>
+                  <h3 className="font-serif text-2xl text-foreground mb-2">{s.title}</h3>
                   <p className="text-foreground/75 leading-relaxed">{s.body}</p>
                 </div>
               </div>

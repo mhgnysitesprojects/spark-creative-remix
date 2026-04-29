@@ -33,7 +33,7 @@ export const InnovatorPackage = () => {
       <div className="container-tight">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="eyebrow mb-4">Creators & Innovators</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
             Trademark <span className="italic text-accent">Package</span>
           </h2>
           <p className="text-lg text-foreground/75 italic">
@@ -48,7 +48,7 @@ export const InnovatorPackage = () => {
 
         {/* Services table */}
         <div className="bg-card rounded-2xl border border-border shadow-soft overflow-hidden mb-12">
-          <div className="grid grid-cols-12 bg-primary text-primary-foreground px-6 py-4 text-xs uppercase tracking-widest font-semibold">
+          <div className="grid grid-cols-12 bg-primary text-foreground-foreground px-6 py-4 text-xs uppercase tracking-widest font-semibold">
             <div className="col-span-4">Service</div>
             <div className="col-span-6">Description</div>
             <div className="col-span-2 text-right">Fee</div>
@@ -58,13 +58,13 @@ export const InnovatorPackage = () => {
               key={s.name}
               className="grid grid-cols-1 md:grid-cols-12 px-6 py-5 border-t border-border gap-2 md:gap-4"
             >
-              <div className="md:col-span-4 font-serif text-lg text-primary">{s.name}</div>
+              <div className="md:col-span-4 font-serif text-lg text-foreground">{s.name}</div>
               <div className="md:col-span-6 text-sm text-foreground/75 leading-relaxed">{s.desc}</div>
               <div className="md:col-span-2 md:text-right font-serif text-2xl text-accent">{s.fee}</div>
             </div>
           ))}
           <div className="bg-primary/5 px-6 py-5 border-t border-border flex items-center justify-between">
-            <span className="font-serif text-xl text-primary">Total (1 class)</span>
+            <span className="font-serif text-xl text-foreground">Total (1 class)</span>
             <span className="font-serif text-3xl text-accent">$3,750</span>
           </div>
         </div>
@@ -74,7 +74,7 @@ export const InnovatorPackage = () => {
           <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
             <div className="flex items-center gap-3 mb-6">
               <FileText className="h-6 w-6 text-accent" />
-              <h3 className="font-serif text-2xl text-primary">What You Receive</h3>
+              <h3 className="font-serif text-2xl text-foreground">What You Receive</h3>
             </div>
             <ul className="space-y-3">
               {receive.map((r) => (
@@ -91,7 +91,7 @@ export const InnovatorPackage = () => {
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
               <div className="flex items-center gap-3 mb-6">
                 <Clock className="h-6 w-6 text-accent" />
-                <h3 className="font-serif text-2xl text-primary">Timeline</h3>
+                <h3 className="font-serif text-2xl text-foreground">Timeline</h3>
               </div>
               <ul className="space-y-3 text-foreground/80">
                 <li className="flex gap-3">
@@ -105,12 +105,12 @@ export const InnovatorPackage = () => {
               </ul>
             </div>
 
-            <div className="bg-primary text-primary-foreground rounded-2xl p-8 shadow-elegant">
+            <div className="bg-primary text-foreground-foreground rounded-2xl p-8 shadow-elegant">
               <p className="eyebrow text-accent mb-3">Additional Classes</p>
               <div className="font-serif text-3xl mb-2">
                 <span className="text-accent">$1,350</span> per additional class
               </div>
-              <p className="text-primary-foreground/75 text-sm">
+              <p className="text-foreground-foreground/75 text-sm">
                 Add-on for each additional class within the same application — includes
                 the $350 USPTO filing fee and attorney fee.
               </p>
@@ -120,7 +120,7 @@ export const InnovatorPackage = () => {
 
         {/* Ready to begin */}
         <div className="text-center max-w-2xl mx-auto">
-          <h3 className="font-serif text-3xl text-primary mb-4">Ready to Begin?</h3>
+          <h3 className="font-serif text-3xl text-foreground mb-4">Ready to Begin?</h3>
           <p className="text-foreground/75 mb-8">
             We'll send an Engagement Letter confirming the scope of services and a
             Payment Link to initiate your trademark filing.
