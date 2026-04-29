@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -16,11 +17,9 @@ export const Navbar = () => {
   return (
     <header className="absolute top-0 inset-x-0 z-40">
       <div className="container-tight flex items-center justify-between py-6">
-        <a href="#" className="flex items-center gap-3 group">
-          <div className="h-10 w-10 rounded-full border border-accent/60 flex items-center justify-center text-accent font-serif text-xl">A</div>
-          <div className="leading-tight">
-            <div className="text-accent font-serif text-lg">Amy Oraefo, P.C.</div>
-            <div className="text-accent/70 text-[10px] uppercase tracking-[0.3em]">A Boutique Law Firm</div>
+        <a href="#" className="flex items-center group">
+          <div className="bg-background/95 backdrop-blur-sm rounded-lg px-4 py-2 shadow-soft">
+            <img src={logo} alt="Amy Oraefo, P.C. — A Boutique Law Firm" className="h-10 w-auto" />
           </div>
         </a>
         <nav className="hidden lg:flex items-center gap-8">
