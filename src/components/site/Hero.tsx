@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import amyProfile from "@/assets/amy-profile.png";
 
 export const Hero = () => {
   return (
@@ -23,19 +22,19 @@ export const Hero = () => {
       <div className="absolute -right-32 top-1/4 h-[500px] w-[500px] rounded-full bg-accent/10 blur-3xl pointer-events-none" />
       <div className="absolute left-0 bottom-0 h-[300px] w-[300px] rounded-full bg-primary-glow/30 blur-3xl pointer-events-none" />
 
-      <div className="container-tight relative z-10 grid lg:grid-cols-2 gap-12 items-center pt-32 pb-20">
+      <div className="container-tight relative z-10 max-w-4xl mx-auto text-center pt-32 pb-20">
         <div>
           <p className="eyebrow mb-6">Welcome to Amy Oraefo, P.C.</p>
           <h1 className="text-primary-foreground text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-8">
             Only <span className="italic text-accent">Applied Knowledge</span> Is{" "}
             <span className="italic text-accent">Power</span>
           </h1>
-          <p className="text-primary-foreground/80 text-lg max-w-xl mb-10 leading-relaxed">
+          <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
             Legal & business strategy for creatives, tech & media companies, athletes,
             startups, and content creators. Protecting your business, creativity, and
             intellectual property to build a lasting legacy.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <Button variant="hero" size="xl" asChild>
               <a
                 href="https://calendly.com/aopclawfirm/consult-with-attorney-amy-oraefo"
@@ -50,7 +49,7 @@ export const Hero = () => {
               <a href="#services">Explore Our Services</a>
             </Button>
           </div>
-          <div className="mt-12 flex items-center gap-8 text-primary-foreground/60 text-sm">
+          <div className="mt-12 flex items-center gap-8 text-primary-foreground/60 text-sm justify-center">
             <div>
               <div className="text-3xl text-accent font-serif">10+</div>
               <div className="uppercase tracking-widest text-xs">Years of Experience</div>
@@ -59,22 +58,6 @@ export const Hero = () => {
             <div>
               <div className="text-3xl text-accent font-serif">7-Fig</div>
               <div className="uppercase tracking-widest text-xs">Deals Negotiated</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative">
-          <div className="absolute inset-0 -m-4 border border-accent/40 rounded-2xl translate-x-4 translate-y-4" />
-          <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-            <img
-              src={amyProfile}
-              alt="Attorney Amy Oraefo, Esq."
-              className="w-full h-[600px] object-cover object-top"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6 text-primary-foreground">
-              <div className="eyebrow text-accent mb-1">Attorney At Law</div>
-              <div className="font-serif text-2xl">Amy Oraefo, Esq.</div>
             </div>
           </div>
         </div>
