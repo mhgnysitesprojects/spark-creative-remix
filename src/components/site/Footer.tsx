@@ -1,16 +1,13 @@
 import { Instagram, Mail, Globe } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground border-t border-accent/20">
       <div className="container-tight py-16 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-1">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="h-10 w-10 rounded-full border border-accent/60 flex items-center justify-center text-accent font-serif text-xl">A</div>
-            <div className="leading-tight">
-              <div className="text-accent font-serif text-lg">Amy Oraefo, P.C.</div>
-              <div className="text-accent/60 text-[10px] uppercase tracking-[0.3em]">A Boutique Law Firm</div>
-            </div>
+          <div className="bg-background rounded-lg px-4 py-3 inline-block mb-4 shadow-soft">
+            <img src={logo} alt="Amy Oraefo, P.C. — A Boutique Law Firm" className="h-10 w-auto" />
           </div>
           <p className="text-primary-foreground/60 text-sm leading-relaxed">
             Protecting your business, creativity, and intellectual property to build a lasting legacy.
