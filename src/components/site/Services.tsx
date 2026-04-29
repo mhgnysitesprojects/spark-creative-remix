@@ -35,7 +35,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="services" className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
+    <section id="services" className="py-24 bg-primary text-foreground-foreground relative overflow-hidden">
       <div className="absolute top-0 right-0 h-96 w-96 bg-accent/5 blur-3xl rounded-full" />
       <div className="container-tight relative">
         <div className="max-w-3xl mb-16">
@@ -45,7 +45,7 @@ export const Services = () => {
             <span className="italic text-accent">negotiate</span> bigger, and{" "}
             <span className="italic text-accent">build</span> real legal freedom.
           </h2>
-          <p className="text-primary-foreground/70 text-lg">
+          <p className="text-foreground-foreground/70 text-lg">
             Our core legal services are designed for the modern creative economy — pragmatic,
             strategic, and built around your industry.
           </p>
@@ -58,10 +58,10 @@ export const Services = () => {
               className="group p-8 rounded-2xl border border-accent/20 bg-primary-foreground/[0.03] backdrop-blur-sm hover:border-accent/60 hover:bg-primary-foreground/[0.06] transition-all duration-300"
             >
               <div className="h-14 w-14 rounded-xl bg-gradient-gold flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Icon className="h-7 w-7 text-primary" />
+                <Icon className="h-7 w-7 text-foreground" />
               </div>
               <h3 className="font-serif text-2xl mb-3 text-accent">{title}</h3>
-              <p className="text-primary-foreground/70 leading-relaxed">{body}</p>
+              <p className="text-foreground-foreground/70 leading-relaxed">{body}</p>
             </div>
           ))}
         </div>

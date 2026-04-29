@@ -14,7 +14,7 @@ const packages = [
 
 export const Packages = () => {
   return (
-    <section className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
+    <section className="py-24 bg-primary text-foreground-foreground relative overflow-hidden">
       <div className="container-tight relative">
         <div className="max-w-3xl mb-14">
           <p className="eyebrow mb-4">Master the Business of Your Craft</p>
@@ -34,7 +34,7 @@ export const Packages = () => {
                 <span className="inline-block text-[10px] uppercase tracking-[0.2em] text-accent border border-accent/40 px-2 py-1 rounded-full mb-5">
                   {p.tag}
                 </span>
-                <h3 className="font-serif text-xl text-primary-foreground leading-snug mb-6">{p.title}</h3>
+                <h3 className="font-serif text-xl text-foreground-foreground leading-snug mb-6">{p.title}</h3>
               </div>
               <div className="flex items-end justify-between">
                 <span className="font-serif text-3xl text-accent">{p.price}</span>

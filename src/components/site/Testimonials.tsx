@@ -33,7 +33,7 @@ export const Testimonials = () => {
       <div className="container-tight">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="eyebrow mb-4">Client Stories</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground">
             Trusted by <span className="italic text-accent">Creatives, Founders</span> & <span className="italic text-accent">Global Brands</span>
           </h2>
         </div>
@@ -49,15 +49,15 @@ export const Testimonials = () => {
                   <Star key={i} className="h-4 w-4 fill-accent" />
                 ))}
               </div>
-              <blockquote className="font-serif text-xl text-primary leading-relaxed mb-6">
+              <blockquote className="font-serif text-xl text-foreground leading-relaxed mb-6">
                 "{t.quote}"
               </blockquote>
               <figcaption className="flex items-center gap-4 pt-5 border-t border-border">
-                <div className="h-12 w-12 rounded-full bg-gradient-gold text-primary flex items-center justify-center font-serif text-xl">
+                <div className="h-12 w-12 rounded-full bg-gradient-gold text-foreground flex items-center justify-center font-serif text-xl">
                   {t.initial}
                 </div>
                 <div>
-                  <div className="font-medium text-primary">{t.name}</div>
+                  <div className="font-medium text-foreground">{t.name}</div>
                   <div className="text-sm text-muted-foreground">{t.role}</div>
                 </div>
               </figcaption>

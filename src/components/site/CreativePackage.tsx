@@ -29,7 +29,7 @@ export const CreativePackage = () => {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div>
             <p className="eyebrow mb-6">Creative Passport Is</p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.05]">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1.05]">
               Built for Creatives Ready to Turn Talent Into Real{" "}
               <span className="italic text-accent">Opportunity</span> and{" "}
               <span className="italic text-accent">Sustainable Income</span>
@@ -63,25 +63,25 @@ export const CreativePackage = () => {
               key={title}
               className={`rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 ${
                 highlight
-                  ? "bg-primary text-primary-foreground border-primary shadow-elegant"
+                  ? "bg-primary text-foreground-foreground border-primary shadow-elegant"
                   : "bg-card text-card-foreground border-border shadow-soft"
               }`}
             >
               <div
                 className={`h-14 w-14 rounded-xl flex items-center justify-center mb-8 ${
-                  highlight ? "bg-primary-foreground/10 text-accent" : "bg-primary/5 text-primary"
+                  highlight ? "bg-primary-foreground/10 text-accent" : "bg-primary/5 text-foreground"
                 }`}
               >
                 <Icon className="h-7 w-7" />
               </div>
               <h3
                 className={`font-serif text-2xl uppercase tracking-wide mb-4 leading-tight ${
-                  highlight ? "text-primary-foreground" : "text-primary"
+                  highlight ? "text-foreground-foreground" : "text-foreground"
                 }`}
               >
                 {title}
               </h3>
-              <p className={highlight ? "text-primary-foreground/80" : "text-foreground/75"}>
+              <p className={highlight ? "text-foreground-foreground/80" : "text-foreground/75"}>
                 {body}
               </p>
             </div>

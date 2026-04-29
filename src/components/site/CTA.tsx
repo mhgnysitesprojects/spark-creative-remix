@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export const CTA = () => {
   return (
-    <section id="contact" className="py-24 bg-gradient-hero text-primary-foreground relative overflow-hidden">
+    <section id="contact" className="py-24 bg-gradient-hero text-foreground-foreground relative overflow-hidden">
       <div className="absolute -top-32 -left-32 h-96 w-96 rounded-full bg-accent/10 blur-3xl" />
       <div className="absolute -bottom-32 -right-32 h-96 w-96 rounded-full bg-primary-glow/30 blur-3xl" />
       <div className="container-tight relative text-center max-w-3xl">
@@ -11,7 +11,7 @@ export const CTA = () => {
         <h2 className="text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
           You Don't <span className="italic text-accent">Have to Do</span> This Alone
         </h2>
-        <p className="text-primary-foreground/75 text-lg mb-10 leading-relaxed">
+        <p className="text-foreground-foreground/75 text-lg mb-10 leading-relaxed">
           You already have the talent — now it's time to build the legal systems to match it.
           AOPC gives you the roadmap, legal clarity, and trusted counsel to protect your work,
           grow your income, and scale your creative business with confidence. Stop guessing.
@@ -27,7 +27,7 @@ export const CTA = () => {
             <a href="mailto:admin@aopclawfirm.com">Email the Firm</a>
           </Button>
         </div>
-        <p className="mt-10 text-primary-foreground/50 text-sm">
+        <p className="mt-10 text-foreground-foreground/50 text-sm">
           Whether you're reviewing your first record deal, protecting your podcast name,
           launching a SaaS platform, or preparing for investor negotiations — Amy Oraefo, P.C.
           is ready to support your next big move.

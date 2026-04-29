@@ -54,7 +54,7 @@ export const Membership = () => {
       <div className="container-tight">
         <div className="text-center mb-16">
           <p className="eyebrow mb-4">AOPC Counsel Membership</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
             One <span className="italic text-accent">Firm.</span> Three{" "}
             <span className="italic text-accent">Tiers.</span><br />
             Built To Grow With You.
@@ -67,7 +67,7 @@ export const Membership = () => {
               key={t.name}
               className={`relative rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 ${
                 t.highlight
-                  ? "bg-primary text-primary-foreground border-accent shadow-elegant scale-[1.03]"
+                  ? "bg-primary text-foreground-foreground border-accent shadow-elegant scale-[1.03]"
                   : "bg-card text-card-foreground border-border shadow-soft"
               }`}
             >
@@ -77,18 +77,18 @@ export const Membership = () => {
                 </div>
               )}
               <p className={`eyebrow mb-3 ${t.highlight ? "text-accent" : ""}`}>{t.tag}</p>
-              <h3 className={`font-serif text-3xl mb-4 ${t.highlight ? "text-accent" : "text-primary"}`}>
+              <h3 className={`font-serif text-3xl mb-4 ${t.highlight ? "text-accent" : "text-foreground"}`}>
                 {t.name}
               </h3>
               <div className="flex items-baseline gap-1 mb-8">
-                <span className={`text-5xl font-serif ${t.highlight ? "text-primary-foreground" : "text-primary"}`}>{t.price}</span>
-                <span className={`text-sm ${t.highlight ? "text-primary-foreground/70" : "text-muted-foreground"}`}>{t.period}</span>
+                <span className={`text-5xl font-serif ${t.highlight ? "text-foreground-foreground" : "text-foreground"}`}>{t.price}</span>
+                <span className={`text-sm ${t.highlight ? "text-foreground-foreground/70" : "text-muted-foreground"}`}>{t.period}</span>
               </div>
               <ul className="space-y-3 mb-10">
                 {t.features.map((f) => (
                   <li key={f} className="flex gap-3 text-sm">
-                    <Check className={`h-5 w-5 shrink-0 ${t.highlight ? "text-accent" : "text-primary"}`} />
-                    <span className={t.highlight ? "text-primary-foreground/90" : "text-foreground/80"}>{f}</span>
+                    <Check className={`h-5 w-5 shrink-0 ${t.highlight ? "text-accent" : "text-foreground"}`} />
+                    <span className={t.highlight ? "text-foreground-foreground/90" : "text-foreground/80"}>{f}</span>
                   </li>
                 ))}
               </ul>

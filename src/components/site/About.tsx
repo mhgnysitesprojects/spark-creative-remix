@@ -7,7 +7,7 @@ export const About = () => {
       <div className="container-tight">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="eyebrow mb-4">AOPC Is</p>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-foreground leading-tight">
             Built for Creatives, Founders & Athletes Ready to Turn{" "}
             <span className="italic text-accent">Talent</span> Into Real{" "}
             <span className="italic text-accent">Legacy</span>
@@ -51,7 +51,7 @@ export const About = () => {
                 ["Industry expertise", "10+ years across entertainment, IP & startups"],
               ].map(([title, body]) => (
                 <div key={title} className="border-l-2 border-accent pl-4">
-                  <div className="font-serif text-lg text-primary">{title}</div>
+                  <div className="font-serif text-lg text-foreground">{title}</div>
                   <div className="text-sm text-muted-foreground">{body}</div>
                 </div>
               ))}

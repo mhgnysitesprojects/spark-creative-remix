@@ -24,7 +24,7 @@ export const Navbar = () => {
         </a>
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm text-primary-foreground/80 hover:text-accent transition-colors">
+            <a key={l.href} href={l.href} className="text-sm text-foreground-foreground/80 hover:text-accent transition-colors">
               {l.label}
             </a>
           ))}
@@ -42,7 +42,7 @@ export const Navbar = () => {
         <div className="lg:hidden bg-primary/95 backdrop-blur-md border-t border-accent/20">
           <div className="container-tight py-6 flex flex-col gap-4">
             {links.map((l) => (
-              <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-primary-foreground/90 hover:text-accent">
+              <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="text-foreground-foreground/90 hover:text-accent">
                 {l.label}
               </a>
             ))}
