@@ -1,5 +1,7 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
+import { CreativePackage } from "@/components/site/CreativePackage";
+import { InnovatorPackage } from "@/components/site/InnovatorPackage";
 import { Membership } from "@/components/site/Membership";
 import { About } from "@/components/site/About";
 import { Services } from "@/components/site/Services";
@@ -16,6 +18,8 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <CreativePackage />
+      <InnovatorPackage />
       <Membership />
       <About />
       <Services />
