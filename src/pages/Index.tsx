@@ -10,6 +10,7 @@ import { Values } from "@/components/site/Values";
 import { Packages } from "@/components/site/Packages";
 import { Testimonials } from "@/components/site/Testimonials";
 import { HowItWorks } from "@/components/site/HowItWorks";
+import { CreativePassportWorks } from "@/components/site/CreativePassportWorks";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
@@ -28,6 +29,7 @@ const Index = () => {
       <Packages />
       <Testimonials />
       <HowItWorks />
+      <CreativePassportWorks />
       <CTA />
       <Footer />
     </main>
