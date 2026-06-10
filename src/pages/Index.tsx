@@ -11,6 +11,7 @@ import { Packages } from "@/components/site/Packages";
 import { Testimonials } from "@/components/site/Testimonials";
 import { HowItWorks } from "@/components/site/HowItWorks";
 import { CreativePassportWorks } from "@/components/site/CreativePassportWorks";
+import { Portrait } from "@/components/site/Portrait";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
@@ -22,6 +23,7 @@ const Index = () => {
       <CreativePackage />
       <InnovatorPackage />
       <Membership />
+      <Portrait />
       <About />
       <Services />
       <Clients />
