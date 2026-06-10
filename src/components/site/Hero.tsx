@@ -15,8 +15,8 @@ export const Hero = () => {
         aria-hidden="true"
       />
       {/* Dark overlay for legibility */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/80 to-primary/95" />
-      <div className="absolute inset-0 bg-primary/40" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/50 via-primary/35 to-primary/55" />
+      <div className="absolute inset-0 bg-primary/20" />
 
       {/* Decorative gold orb */}
       <div className="absolute -right-32 top-1/4 h-[500px] w-[500px] rounded-full bg-accent/10 blur-3xl pointer-events-none" />
